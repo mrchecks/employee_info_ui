@@ -1,0 +1,21 @@
+.home {
+    margin: 10px 30px 10px 30px;
+
+    h1 {
+        text-align: center;
+    }
+    .add-button {
+        float: right;
+    }
+
+    .button-container {
+        display: flex;
+
+        svg {
+            cursor: pointer;
+        }
+        .edit-button {
+            margin-right: 20px;
+        }
+    }
+}
